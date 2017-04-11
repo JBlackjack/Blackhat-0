@@ -1,0 +1,156 @@
+/*---header---*/
+
+ @keyframes cf3FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#navigation_menu {
+  position:relative;
+  height:350px;
+  width:1024px;
+  margin:0 auto;
+}
+
+#navigation_menu img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#navigation_menu img.top {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-direction: alternate;
+}
+
+
+#navigation_menu {
+    border-bottom: 4px solid black;
+    background-color: #111111;
+}
+
+/*--navigation icons--*/
+
+div {
+    color: #FFF;
+}
+
+.green {
+    background-color: #C0C0C0;
+    width: 33.3%;
+    height: 5em;
+    float: left;
+     text-align: center;
+     text-shadow: 2px 2px black;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.red {
+    background-color: #000;
+    width: 33.3%;
+    height: 5em;
+    float: left;
+    position: relative;
+     text-align: center;
+     text-shadow: 2px 2px black;
+    font-family: 'Palanquin Dark', sans-serif;
+ 
+}
+/*-nav bar-*/
+.blue {
+    background-color: #00F;
+    width: 100%;
+    height: 55px;
+    clear: both;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("../images/blackhatsdealership.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 0;
+
+}
+
+
+nav li {
+    display:inline-block;
+    margin-top: 10px;
+
+    
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    padding:15px;
+  
+}
+
+nav ul a:hover {
+    background-color: #0F0;
+    color: red;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 9px;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+p {
+    font-size:0.9em;
+    line-height: 2em;
+    padding: 20px;
+}
+
+body {
+    background-color: #000;
+}
+/* -- use this font family, font-family: 'Palanquin Dark', sans-serif; --*/
+
+
+/*--body image--*/
+
+.middleimg {
+    width: 100%;
+    height: 500px;
+    background-image: url("http://www.vayvon5s.com/DataImg/ImgProducts/bwm_car.png");
+    background-position: center center;
+    background-size: cover;
+}
+.carlist {
+    text-align: left;
+}
+
+/*-footer--*/
+
+
