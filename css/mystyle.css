@@ -111,13 +111,12 @@ nav li {
 nav ul li a {
     color: #FFF;
     text-decoration: none;
-    padding:15px;
+    padding:132px;
   
 }
 
 nav ul a:hover {
-    background-color: #0F0;
-    color: red;
+        color: red;
 }
 
 h1 {
@@ -127,6 +126,7 @@ h1 {
 }
 
 p {
+    font-family: 'Palanquin Dark', sans-serif;
     font-size:0.9em;
     line-height: 2em;
     padding: 20px;
@@ -143,9 +143,11 @@ body {
 .middleimg {
     width: 100%;
     height: 500px;
-    background-image: url("http://www.vayvon5s.com/DataImg/ImgProducts/bwm_car.png");
-    background-position: center center;
-    background-size: cover;
+    background-image: url("../images/blackhatlocation.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 324px;
+    padding-bottom: 0px
 }
 .carlist {
     text-align: left;
@@ -153,4 +155,7 @@ body {
 
 /*-footer--*/
 
-
+.align-left {
+    float:left;
+    margin: 5px 20px 20px 0;
+}
