@@ -126,6 +126,7 @@ h1 {
 }
 
 p {
+    color: black;
     font-family: 'Palanquin Dark', sans-serif;
     font-size:1em;
     line-height: 2em;
@@ -133,7 +134,12 @@ p {
 }
 
 body {
+    background-image: url("../images/silver-grey-mist-background.jpg");
+    background-position: center center;
+    background-size: 100% 50%;
+    /*
     background-color: #000;
+    */
 }
 /* -- use this font family, font-family: 'Palanquin Dark', sans-serif; --*/
 
@@ -158,4 +164,10 @@ body {
 .align-left {
     float:left;
     margin: 5px 20px 20px 0;
+}
+
+.abouttext {
+    font-size:20px;
+    color: black;
+    text-align: center;
 }
